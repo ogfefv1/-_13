@@ -1,0 +1,51 @@
+table 
+{
+    border-radius: 0px;
+    background-color: rgb(142, 140, 140);
+    overflow: hidden;
+    margin: 0px;
+    border-spacing: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+thead th
+ {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+tbody th
+ {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: normal;
+}
+
+tbody th, tbody td
+ {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tfoot th
+ {
+    padding: 10px;
+}
+
+button
+ {
+    background-color: rgb(167, 167, 167);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgb(167, 167, 167);
+}
